@@ -5,7 +5,7 @@ namespace JackEasing.Sample {
     public class JackEasingSample : MonoBehaviour {
 
         float time;
-        float duaraion = .1f;
+        float duaraion = 2f;
         float wait;
 
         GameObject ease1d;
