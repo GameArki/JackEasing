@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.frame.fpmath": {
+      "version": "ssh://git@github.com/chenwansal/FPMath.git?path=/Assets/com.frame.fpmath#develop",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "6f7eec4633fbe29fcfe62be6ae253b1320d4ee03"
+    },
     "com.unity.collab-proxy": {
       "version": "1.17.6",
       "depth": 0,
