@@ -10,18 +10,27 @@ namespace JackEasing {
 
         public static FP64 Ease1D(EasingType type, FP64 passTime, FP64 duration, FP64 startValue, FP64 endValue) {
             FP64 timePercent = passTime / duration;
+            if (timePercent > FP64.One) {
+                timePercent = FP64.One;
+            }
             FP64 valuePercent = GetValuePercent(type, timePercent);
             return startValue + (endValue - startValue) * valuePercent;
         }
 
         public static FPVector2 Ease2D(EasingType type, FP64 passTime, FP64 duration, FPVector2 startValue, FPVector2 endValue) {
             FP64 timePercent = passTime / duration;
+            if (timePercent > FP64.One) {
+                timePercent = FP64.One;
+            }
             FP64 valuePercent = GetValuePercent(type, timePercent);
             return startValue + (endValue - startValue) * valuePercent;
         }
 
         public static FPVector3 Ease3D(EasingType type, FP64 passTime, FP64 duration, FPVector3 startValue, FPVector3 endValue) {
             FP64 timePercent = passTime / duration;
+            if (timePercent > FP64.One) {
+                timePercent = FP64.One;
+            }
             FP64 valuePercent = GetValuePercent(type, timePercent);
             return startValue + (endValue - startValue) * valuePercent;
         }

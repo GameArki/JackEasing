@@ -9,18 +9,27 @@ namespace JackEasing {
 
         public static float Ease1D(EasingType type, float passTime, float duration, float startValue, float endValue) {
             float timePercent = passTime / duration;
+            if (timePercent > 1) {
+                timePercent = 1;
+            }
             float valuePercent = GetValuePercent(type, timePercent);
             return startValue + (endValue - startValue) * valuePercent;
         }
 
         public static Vector2 Ease2D(EasingType type, float passTime, float duration, Vector2 startValue, Vector2 endValue) {
             float timePercent = passTime / duration;
+            if (timePercent > 1) {
+                timePercent = 1;
+            }
             float valuePercent = GetValuePercent(type, timePercent);
             return startValue + (endValue - startValue) * valuePercent;
         }
 
         public static Vector3 Ease3D(EasingType type, float passTime, float duration, Vector3 startValue, Vector3 endValue) {
             float timePercent = passTime / duration;
+            if (timePercent > 1) {
+                timePercent = 1;
+            }
             float valuePercent = GetValuePercent(type, timePercent);
             return startValue + (endValue - startValue) * valuePercent;
         }
