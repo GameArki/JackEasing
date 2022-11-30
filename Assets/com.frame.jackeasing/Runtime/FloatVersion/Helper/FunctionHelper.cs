@@ -6,6 +6,10 @@ namespace JackEasing {
     // Output: Value Percent
     public static class FunctionHelper {
 
+        public static float EaseImmediate(float timePercent) {
+            return 1;
+        }
+
         public static float EaseLinear(float t) {
             return t;
         }

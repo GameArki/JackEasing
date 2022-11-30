@@ -15,6 +15,10 @@ namespace JackEasing {
         static FP64 spec_2625_en3 = 2625 * FP64.EN3;
         static FP64 spec_984375_en6 = (FP64)984375 / 1000000;
 
+        public static FP64 EaseImmediate(FP64 timePercent) {
+            return FP64.One;
+        }
+
         public static FP64 EaseLinear(FP64 t) {
             return t;
         }

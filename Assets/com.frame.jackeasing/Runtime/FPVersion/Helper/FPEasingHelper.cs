@@ -1,4 +1,3 @@
-using UnityEngine;
 using FixMath.NET;
 
 namespace JackEasing {
@@ -38,6 +37,7 @@ namespace JackEasing {
         static FP64 GetValuePercent(EasingType type, FP64 timePercent) {
             FP64 valuePercent;
             switch (type) {
+                case EasingType.Immediate: valuePercent = FPFunctionHelper.EaseImmediate(timePercent); break;
                 case EasingType.Linear: valuePercent = FPFunctionHelper.EaseLinear(timePercent); break;
                 case EasingType.InQuad: valuePercent = FPFunctionHelper.EaseInQuad(timePercent); break;
                 case EasingType.OutQuad: valuePercent = FPFunctionHelper.EaseOutQuad(timePercent); break;

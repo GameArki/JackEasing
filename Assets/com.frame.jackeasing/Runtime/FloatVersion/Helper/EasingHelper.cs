@@ -37,6 +37,7 @@ namespace JackEasing {
         static float GetValuePercent(EasingType type, float timePercent) {
             float valuePercent;
             switch (type) {
+                case EasingType.Immediate: valuePercent = FunctionHelper.EaseImmediate(timePercent); break;
                 case EasingType.Linear: valuePercent = FunctionHelper.EaseLinear(timePercent); break;
                 case EasingType.InQuad: valuePercent = FunctionHelper.EaseInQuad(timePercent); break;
                 case EasingType.OutQuad: valuePercent = FunctionHelper.EaseOutQuad(timePercent); break;

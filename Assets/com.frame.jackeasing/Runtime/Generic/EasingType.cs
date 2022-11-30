@@ -1,6 +1,7 @@
 namespace JackEasing {
 
     public enum EasingType {
+        Immediate,
         Linear,
         InQuad,
         OutQuad,
