@@ -1,7 +1,7 @@
 using UnityEngine;
 using FixMath.NET;
 
-namespace JackEasing.FP.Sample {
+namespace GameArki.FPEasing.FP.Sample {
 
     public class JackEasingFPSample : MonoBehaviour {
 

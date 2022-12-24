@@ -1,8 +1,7 @@
 {
-    "name": "JackEasing.FP.Sample",
+    "name": "GameArki.FPEasing.FP",
     "rootNamespace": "",
     "references": [
-        "GUID:39c2dd2d868386148bb87df11b3853bc",
         "GUID:456740c386b308542be128e7c798eefb"
     ],
     "includePlatforms": [],

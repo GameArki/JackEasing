@@ -1,6 +1,6 @@
 using System;
 
-namespace JackEasing {
+namespace GameArki.FPEasing {
 
     // Input: Time Percent
     // Output: Value Percent

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace JackEasing {
+namespace GameArki.FPEasing {
 
     // Attentions:
     // 1. duration must be greater than 0

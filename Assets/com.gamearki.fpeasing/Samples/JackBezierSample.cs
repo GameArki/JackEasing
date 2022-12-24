@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace JackEasing.Sample {
+namespace GameArki.FPEasing.Sample {
 
     public class JackBezierSample : MonoBehaviour {
 

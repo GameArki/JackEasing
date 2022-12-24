@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace JackEasing {
+namespace GameArki.FPEasing {
 
     public class JackWaveSample : MonoBehaviour {
 

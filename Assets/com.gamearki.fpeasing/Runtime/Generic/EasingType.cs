@@ -1,4 +1,4 @@
-namespace JackEasing {
+namespace GameArki.FPEasing {
 
     public enum EasingType {
         Immediate,

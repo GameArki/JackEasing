@@ -1,7 +1,7 @@
 using System;
 using FixMath.NET;
 
-namespace JackEasing.FP {
+namespace GameArki.FPEasing.FP {
 
     // Input: Time Percent
     // Output: Value Percent

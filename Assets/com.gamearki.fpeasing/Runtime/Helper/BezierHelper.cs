@@ -2,7 +2,7 @@ using UnityEngine;
 using System;
 
 
-namespace JackEasing {
+namespace GameArki.FPEasing {
 
     public static class BezierHelper {
 

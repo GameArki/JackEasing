@@ -1,6 +1,6 @@
 using FixMath.NET;
 
-namespace JackEasing.FP {
+namespace GameArki.FPEasing.FP {
 
     // Attentions:
     // 1. duration must be greater than 0
